@@ -20,18 +20,18 @@
 console.log("mark sheet");
 var totalmarks = 400;
 var mathsub = +prompt("Math Obtain Marks");
-var Physsub = +prompt("Math Obtain Marks");
-var chemsub = +prompt("Math Obtain Marks");
-var engsub = +prompt("Math Obtain Marks");
+var Physsub = +prompt("Physics Obtain Marks");
+var chemsub = +prompt("chemistry Obtain Marks");
+var engsub = +prompt("english Obtain Marks");
 
 var obtainmarks = mathsub + Physsub + chemsub + engsub;
 
 var percentage = obtainmarks /totalmarks * 100;
 
-console.log(mathsub)    
-console.log(Physsub)
-console.log(chemsub)
-console.log(engsub)
+console.log("math marks: "+ mathsub)    
+console.log("physics marks: "+Physsub)
+console.log("cheistry marks: "+chemsub)
+console.log("english marks: "+engsub)
 console.log("You Got: "+ percentage +"%")
 
 
